@@ -39,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		227CF06228040FEB0039A3EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		227CF06328040FF30039A3EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D8227F9D273001E36CF /* LaunchScreen.storyboard */,
+				22D13D7D27F9D271001E36CF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		227CF064280410020039A3EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2291516827FC278F00F537DA /* WelcomeViewController.swift */,
+				22D13D7B27F9D271001E36CF /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		227CF065280410100039A3EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D8527F9D273001E36CF /* Info.plist */,
+				22D13D7927F9D271001E36CF /* SceneDelegate.swift */,
+				22D13D7727F9D271001E36CF /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		227CF066280410620039A3EF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22D13D8027F9D273001E36CF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		22D13D6B27F9D271001E36CF = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +101,11 @@
 		22D13D7627F9D271001E36CF /* HW2.3.1 */ = {
 			isa = PBXGroup;
 			children = (
-				22D13D7727F9D271001E36CF /* AppDelegate.swift */,
-				22D13D7927F9D271001E36CF /* SceneDelegate.swift */,
-				22D13D7B27F9D271001E36CF /* LoginViewController.swift */,
-				2291516827FC278F00F537DA /* WelcomeViewController.swift */,
-				22D13D7D27F9D271001E36CF /* Main.storyboard */,
-				22D13D8027F9D273001E36CF /* Assets.xcassets */,
-				22D13D8227F9D273001E36CF /* LaunchScreen.storyboard */,
-				22D13D8527F9D273001E36CF /* Info.plist */,
+				227CF06228040FEB0039A3EF /* Models */,
+				227CF06328040FF30039A3EF /* Views */,
+				227CF064280410020039A3EF /* Controllers */,
+				227CF066280410620039A3EF /* Assets */,
+				227CF065280410100039A3EF /* Support */,
 			);
 			path = HW2.3.1;
 			sourceTree = "<group>";
